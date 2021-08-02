@@ -1,0 +1,116 @@
+body,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: black; 
+   padding: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 0 100px;
+    background-color: #3b3f45;
+    border: 20px solid white;
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+
+.header {
+    background-color: #4a4f56;    
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+    font-size: 30px;
+    color: #eb7e7f;
+} 
+
+h1::before {
+    content: "CSS";
+    font-size: 30px;
+    color: #eb7e7f;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 25px;
+    font-size: 22px;
+    color: #eb7e7f;
+}
+
+h1+p {
+    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+
+ul {
+    padding: 0 195px;
+    font-size: 22px;
+    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+li:nth-child(odd) {
+    background-color: #88839e;
+}
+
+li:nth-child(even) {
+    background-color: #7a7593;
+}
+
+li {
+    list-style: none;
+    color: white;
+    line-height: 60px;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+li:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: #655977;
+    transition: all .1s ease-in;
+}
+
+span {
+    opacity: 0.7;
+    font-size: 16px;
+}
+    
+.button {
+    padding: 0 195px;
+    text-align: center;
+    
+}
+
+button {
+    color: #eb7e7f;
+    background-color: #4a4f56;
+    width: 100%;
+    line-height: 40px;
+    font-size: 22px;
+    font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+button::after {
+    content: " :)";
+}
+
