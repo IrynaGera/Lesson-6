@@ -21,6 +21,7 @@ html {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .figure {
@@ -29,8 +30,9 @@ html {
 }
     
 .typeoficon li {
-    display: inline-block;
     padding: 0 70px;
+    float: left;
+    width: calc(100% / 3 );
 }
 
 .icon-wrapper {
@@ -75,32 +77,29 @@ html {
 
 .text {
     font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 24px;
     color: #000000;
     font-family: "Proxima Nova";
     padding-bottom: 25px;
-    margin: 0;
 }
 
+
 .text2 {
-    margin: 0;
+    margin: 0 auto;
     font-size: 14px;
     letter-spacing: 0px;
-    line-height: 20px;
     color: #9d9d9d;
     font-weight: 300;
     font-family: "Proxima Nova";
     width: 260px;
-    height: 51px;
 }
 
-.icon-wrapper:hover {
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-wrapper:hover  {
     background-color: white;
-}
-
-i:hover {
-    color: #2a69a6;
 }
 
 i {
@@ -108,8 +107,8 @@ i {
     font-size: 25px;
 }
 
-.fa-mobile:hover {
-    color: white;
+.icon-wrapper:hover i {
+    color: #2a69a6;
 }
 
 
